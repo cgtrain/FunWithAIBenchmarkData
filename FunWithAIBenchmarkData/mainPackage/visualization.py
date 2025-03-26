@@ -8,6 +8,7 @@
 # Brief Description of the assignment:  Display an image and data visualization
 # Brief Description of what this module does: Displays data visualization for a dataset
 # Citations: https://chatgpt.com/ , https://mavenanalytics.io/data-playground
+# Anything else that's relevant: pip install pandas, matplotlib
 
 import pandas as pd
 import matplotlib.pyplot as plt
