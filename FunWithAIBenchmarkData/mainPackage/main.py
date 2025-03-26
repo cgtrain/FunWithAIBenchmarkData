@@ -6,10 +6,12 @@ from readingLevelPackage.readingLevel import Reading_Level
 from utilitiesPackage.utilities import *
 from utilitiesPackage.CSV_Utilities import *
 from PDFPackage.PDFUtilities import *
-from amd_opteron_240 import show_team_image
+from amd_opteron_240 import show_team_image # cgtrain
+from visualization import visualize_candy_popularity # wolfeaw
 
 if __name__ == "__main__":
-    show_team_image()
+    show_team_image() # cgtrain
+    visualize_candy_popularity() # wolfeaw
 
     CSV_Processor = MMLU_CSV_Processor("dataPackage/MMLU/data/", ["management_test.csv"])
     questions = CSV_Processor.read_data()
